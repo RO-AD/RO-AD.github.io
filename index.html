@@ -1,8 +1,82 @@
 <html>
-    <head></head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="G0PHER">
+        <meta name="description" content="경기대학교 로봇공학 및 자율주행 기술 연구 학술 동아리">
+
+        <!-- THUMB 미리보기 -->
+        <meta property="og:title" content="RO:AD">
+        <meta name="twitter:title" content="RO:AD">
+        <meta property="og:description" content="Robot Operating & Autonomous Driving Research Team">
+        <meta property="og:image" content="./img/road.jpg">
+
+        
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.7.2/proj4.js"></script>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <link rel="icon" type="image/png" href="./img/automobile.png" />
+        <title>RO:AD</title>
+        <style>
+            html, body, .container > .row {
+                width: 100%;
+                height: 100%;
+                background-color: #383d40;
+                color: #faf2f0;
+            }
+            .logo {
+                text-align: center;
+            }
+            .team-name-description {
+                text-align: center;
+                margin-top: -20px;
+            }
+            a {
+                text-decoration: none; 
+                color: #faf2f0;
+            }
+            a:hover {
+                color: #aaa;
+            }
+            .menu {
+                border-right: 1px solid #626262;
+            }
+            a.selected {
+                font-weight: bold;
+            }
+            a.selected:after {
+                content: '.';
+            }
+    
+        </style>
+    </head>
     <body>
-        <h1>RO:AD</h1>
-        <p>Robot Operating & Autonomous Driving</p>
-        <hr>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-sm-6 align-middle">
+                <div class="logo">
+                    <img src="./img/road.jpg" width="300px"/>
+                </div>
+                <p class="team-name-description">Kyonggi University's Robot Operating & Autonomous Driving Research Team</p>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-3 menu">
+                        <p>✒ <a href="#history">History</a></p>
+                        <p>🤸‍♂️ <a href="#members">Members</a></p>
+                    </div>
+                    <div class="col-sm-9 display">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="./index.js"></script>
     </body>
 </html>
