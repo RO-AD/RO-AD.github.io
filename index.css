@@ -28,7 +28,23 @@ a.selected:after {
     content: '.';
 }
 
-.card {
-    background-color: #000;
-    margin-bottom: 5px;
+.display table {
+    width: 100%;
+}
+.display tr {
+    height: 30px;
+}
+
+.display td .name {
+    font-weight: bold;
+}
+.display td .nickname {
+    font: menu;
+    font-style: oblique;
+}
+.display td .role {
+    text-align: center;
+    background: #000;
+    width: inherit;
+    margin-left: auto;
 }
