@@ -42,9 +42,26 @@ a.selected:after {
     font: menu;
     font-style: oblique;
 }
-.display td .role {
-    text-align: center;
-    background: #000;
-    width: inherit;
-    margin-left: auto;
+
+/* role */
+.role {
+    text-align: right;
+}
+.role > span {
+    border-radius: 5px;
+    font: menu;
+    padding: 3px 8px;
+    margin-right: 5px;
+}
+.role-top-leader {
+    background: #915d5d;
+}
+.role-sub-leader {
+    background: #63779b;
+}
+.role-general-affairs {
+    background: #818543;
+}
+.role-none {
+    background: #585858;
 }

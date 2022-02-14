@@ -3,9 +3,7 @@
 아래 format 준수
 {
     name      : '', // 실명
-    birth     : '', // 출생일 YYYY-MM-DD
     nickname  : '', // 닉네임
-    email     : '', // 이메일
     role      : [], // 역할
 
     link: [
@@ -19,56 +17,58 @@
 const MEMBERS = {
     '1기' : [
         {
+            name      : '박인하',
+            nickname  : 'fp-future',
+            role_list : ['회장'],
+            link: ''
+        },
+        {
+            name      : '윤세원',
+            nickname  : 'moguming',
+            role_list : ['부회장', '총무'],
+            link: ''
+        },
+        {
             name      : '이재승',
-            birth     : '1998-12-18',
             nickname  : 'g0pher',
-            email     : 'mail@jseung.me',
-            role      : ['왕고'],
-            link: [
-                {
-                    'github'    : 'https://github.com/g0pher98',
-                    'instagram' : 'https://instagram.com/g0pher_'
-                }
-            ]
-        },
-        {
-            name      : '홍길동',
-            birth     : '1998-12-18',
-            nickname  : 'g0pher',
-            email     : 'mail@jseung.me',
-            role      : ['왕고'],
-            link: [
-                {
-                    'github'    : 'https://github.com/g0pher98',
-                    'instagram' : 'https://instagram.com/g0pher_'
-                }
-            ]
-        },
-        {
-            name      : '이재동',
-            birth     : '1998-12-18',
-            nickname  : 'g0pher',
-            email     : 'mail@jseung.me',
-            role      : ['왕고'],
-            link: [
-                {
-                    'github'    : 'https://github.com/g0pher98',
-                    'instagram' : 'https://instagram.com/g0pher_'
-                }
-            ]
+            role_list : ['ㅎ'],
+            link: ''
         },
         {
             name      : '이효진',
-            birth     : '1998-12-18',
-            nickname  : 'g0pher',
-            email     : 'mail@jseung.me',
-            role      : ['왕고'],
-            link: [
-                {
-                    'github'    : 'https://github.com/g0pher98',
-                    'instagram' : 'https://instagram.com/g0pher_'
-                }
-            ]
+            nickname  : 't0paz',
+            role_list : ['ㅎ'],
+            link: ''
+        },
+        {
+            name      : '정승수',
+            nickname  : 'bingva',
+            role_list : ['ㅎ'],
+            link: ''
+        },
+        {
+            name      : '이형진',
+            nickname  : 'luke',
+            role_list : ['ㅎ'],
+            link: ''
+        },
+        {
+            name      : '이은지',
+            nickname  : 'skqlko',
+            role_list : ['ㅎ'],
+            link: ''
+        },
+        {
+            name      : '고아라',
+            nickname  : 'aralla',
+            role_list : ['ㅎ'],
+            link: ''
+        },
+        {
+            name      : '김화영',
+            nickname  : 'avocadosamsam',
+            role_list : ['ㅎ'],
+            link: ''
         }
     ]
 }
