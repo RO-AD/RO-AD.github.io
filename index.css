@@ -6,6 +6,7 @@ html, body, .container > .row {
 }
 .logo {
     text-align: center;
+    margin-top: -20px;
 }
 .team-name-description {
     text-align: center;
@@ -30,73 +31,4 @@ a.selected {
 }
 a.selected:after {
     content: '.';
-}
-
-.display table {
-    width: 100%;
-}
-.display tr {
-    height: 30px;
-}
-.display td .name {
-    font-weight: bold;
-}
-.display td .nickname {
-    font: menu;
-    font-style: oblique;
-}
-.display table {
-    margin-bottom: 35px;
-}
-.role, .tag {
-    text-align: right;
-}
-.role > span, .tag > span {
-    border-radius: 5px;
-    font: menu;
-    padding: 3px 8px;
-    margin-right: 5px;
-}
-
-
-/* history */
-.display .title {
-
-}
-.display .term {
-    color: #bbb;
-    font-style: italic;
-    font-size: 10pt;
-    margin-bottom: 15pt;
-}
-
-
-
-
-/* history - tag */
-.tag {
-    text-align: right;
-}
-.tag-final {
-    background: #915d5d;
-}
-.tag-seminar {
-    background: #63779b;
-}
-.tag-none {
-    background: #585858;
-}
-
-/* members - role */
-.role-top-leader {
-    background: #915d5d;
-}
-.role-sub-leader {
-    background: #63779b;
-}
-.role-general-affairs {
-    background: #818543;
-}
-.role-none {
-    background: #585858;
 }
